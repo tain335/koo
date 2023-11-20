@@ -1,0 +1,9 @@
+{
+  // 保存时自动格式化
+  "editor.tabSize": 2,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+    // 保存时自动修复 ESLint 错误
+    "source.fixAll.eslint": true
+  },
+}

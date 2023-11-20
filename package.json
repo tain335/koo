@@ -1,0 +1,40 @@
+{
+  "name": "infrasec_fe",
+  "private": true,
+  "version": "1.0.0",
+  "description": "koo projects",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.15.0",
+    "yarn": ">=1.22.19",
+    "npm": "please-use-pnpm"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node ./scripts/create-project.js",
+    "lint-staged": "npx lint-staged",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "node ./scripts/lint.js"
+  },
+  "author": "yanbo.wu@shopee.wu",
+  "license": "UNLICENSE",
+  "devDependencies": {
+    "shelljs": "^0.8.5",
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.0",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "glob": "^8.0.3",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
+    "eslint": "^8.17.0",
+    "typescript": "^4.6.3"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "exmaple",
+  "version": "1.0.0",
+  "packageManager": "pnpm@7.18.2",
+  "engines": {
+    "node": ">=16.15.0",
+    "yarn": ">=1.22.19",
+    "npm": "please-use-pnpm"
+  },
+  "private": true,
+  "license": "UNLICENSE",
+  "dependencies": {
+    "core": "workspace:core@*",
+    "nanoid": "^5.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-renderer": "workspace:react-renderer@*"
+  },
+  "devDependencies": {
+    "@ljharb/eslint-config": "^21.0.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^17.0.14",
+    "@vitejs/plugin-react": "^3.0.1",
+    "eslint-config-koo": "workspace:eslint-config-koo@*",
+    "vite": "^4.0.4",
+    "vite-plugin-commonjs": "^0.6.1"
+  },
+  "scripts": {
+    "dev": "npx vite"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

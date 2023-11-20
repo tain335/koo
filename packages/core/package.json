@@ -1,0 +1,39 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "packageManager": "pnpm@7.18.2",
+  "engines": {
+    "node": ">=16.15.0",
+    "yarn": ">=1.22.19",
+    "npm": "please-use-pnpm"
+  },
+  "private": true,
+  "license": "UNLICENSE",
+  "dependencies": {
+    "@types/d3-ease": "^3.0.1",
+    "@types/lodash": "^4.14.200",
+    "@types/parse-color": "^1.0.2",
+    "d3-ease": "^3.0.1",
+    "lodash": "^4.17.21",
+    "nanoid": "^5.0.2",
+    "parse-color": "^1.0.0",
+    "transformation-matrix": "^2.15.0"
+  },
+  "devDependencies": {
+    "@ljharb/eslint-config": "^21.0.0",
+    "eslint-config-koo": "workspace:eslint-config-koo@*"
+  },
+  "scripts": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
